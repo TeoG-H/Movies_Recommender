@@ -1,15 +1,19 @@
 import requests
 from bs4 import BeautifulSoup
-from functii import scrap_movies, store_movies, cast
+from functii import scrap_movies, store_movies
 
-# movies = scrap_movies()
+print("Start movies scraper...\n")
+movies = scrap_movies(1)
 
-# print("\nPrimele 20 filme:")
-# for i, item in enumerate(movies[:20], start=1):
-#     print(f"{i}. {item['title']} {item['rating']} → {item['link']}")
+print(f"\n{'='*50}")
+print(f"Total anime scraped: {len(movies)}")
+print(f"{'='*50}\n")
 
-# store_movies(movies)
-print("merge")
-cast()
+
+if movies:
+     store_movies(movies)
+     print("Scraping complete!")
+else:
+     print("No movies data collected!")
 
    
