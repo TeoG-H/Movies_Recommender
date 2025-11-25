@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 from functii import scrap_movies, store_movies
 
 print("Start movies scraper...\n")
-movies = scrap_movies(1)
+movies = scrap_movies(30)
 
 print(f"\n{'='*50}")
 print(f"Total anime scraped: {len(movies)}")

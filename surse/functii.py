@@ -46,7 +46,7 @@ def scrap_movies(pages=1):
 
 
 def scrape_movies_details(url, rating):
-    time.sleep(1)
+    #time.sleep(1)
     HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
                   "AppleWebKit/537.36 (KHTML, like Gecko) "
