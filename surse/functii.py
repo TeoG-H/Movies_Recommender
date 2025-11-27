@@ -9,10 +9,10 @@ def scrap_movies(pages=1):
     all_items = [] 
     HEADERS = {
         "User-Agent": "Mozilla/5.0",
-        "Referer": "https://letterboxd.com/films/by/rating/",
+        "Referer": "https://letterboxd.com/films/by/popular/",
     }
     for page in range(pages):
-            BASE_URL = f"https://letterboxd.com/films/ajax/by/rating/page/{page+1   }/?esiAllowFilters=true"
+            BASE_URL = f"https://letterboxd.com/films/ajax/by/popular/page/{page+1   }/?esiAllowFilters=true"
             print(f" Fetching page {page+1}")
 
             try:
