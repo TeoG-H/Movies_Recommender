@@ -31,5 +31,6 @@ The system analyzes:
 ###  Try It Online
 
 👉 **Live Demo:**  
-https://moviesrecommender-ux3tkwcuszuz3kyzzblmw.streamlit.app/
+[https://moviesrecommender-ux3tkwcuszuz3kyzzblmw.streamlit.app/](https://moviesrecommender-ux3tkwcuszuz3kyzzblmrw.streamlit.app/)
+
 
